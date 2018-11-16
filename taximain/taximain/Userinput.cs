@@ -158,5 +158,10 @@ namespace taximain
         {
            
         }
+
+        private void cbmin_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
