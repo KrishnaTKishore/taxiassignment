@@ -95,7 +95,7 @@
             // 
             this.btentertime.ForeColor = System.Drawing.Color.DarkBlue;
             this.btentertime.Location = new System.Drawing.Point(287, 208);
-            this.btentertime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btentertime.Margin = new System.Windows.Forms.Padding(2);
             this.btentertime.Name = "btentertime";
             this.btentertime.Size = new System.Drawing.Size(91, 19);
             this.btentertime.TabIndex = 7;
@@ -121,7 +121,7 @@
             "11",
             "12"});
             this.cbhr.Location = new System.Drawing.Point(160, 209);
-            this.cbhr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbhr.Margin = new System.Windows.Forms.Padding(2);
             this.cbhr.Name = "cbhr";
             this.cbhr.Size = new System.Drawing.Size(92, 21);
             this.cbhr.TabIndex = 11;
@@ -131,7 +131,7 @@
             this.rbam.AutoSize = true;
             this.rbam.ForeColor = System.Drawing.Color.Cornsilk;
             this.rbam.Location = new System.Drawing.Point(138, 230);
-            this.rbam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbam.Margin = new System.Windows.Forms.Padding(2);
             this.rbam.Name = "rbam";
             this.rbam.Size = new System.Drawing.Size(41, 17);
             this.rbam.TabIndex = 12;
@@ -144,7 +144,7 @@
             this.rbpm.AutoSize = true;
             this.rbpm.ForeColor = System.Drawing.Color.Cornsilk;
             this.rbpm.Location = new System.Drawing.Point(140, 251);
-            this.rbpm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbpm.Margin = new System.Windows.Forms.Padding(2);
             this.rbpm.Name = "rbpm";
             this.rbpm.Size = new System.Drawing.Size(41, 17);
             this.rbpm.TabIndex = 13;
@@ -156,7 +156,7 @@
             // tbtime
             // 
             this.tbtime.Location = new System.Drawing.Point(218, 288);
-            this.tbtime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbtime.Margin = new System.Windows.Forms.Padding(2);
             this.tbtime.Name = "tbtime";
             this.tbtime.Size = new System.Drawing.Size(92, 20);
             this.tbtime.TabIndex = 14;
@@ -166,7 +166,7 @@
             this.tbkilometers.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.tbkilometers.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tbkilometers.Location = new System.Drawing.Point(287, 168);
-            this.tbkilometers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbkilometers.Margin = new System.Windows.Forms.Padding(2);
             this.tbkilometers.Name = "tbkilometers";
             this.tbkilometers.Size = new System.Drawing.Size(76, 20);
             this.tbkilometers.TabIndex = 15;
@@ -202,7 +202,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(59, 348);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(173, 19);
             this.button1.TabIndex = 18;
@@ -213,7 +213,7 @@
             // tbfareamount
             // 
             this.tbfareamount.Location = new System.Drawing.Point(310, 383);
-            this.tbfareamount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbfareamount.Margin = new System.Windows.Forms.Padding(2);
             this.tbfareamount.Name = "tbfareamount";
             this.tbfareamount.Size = new System.Drawing.Size(84, 20);
             this.tbfareamount.TabIndex = 19;
@@ -249,7 +249,7 @@
             // tbpassengername
             // 
             this.tbpassengername.Location = new System.Drawing.Point(218, 124);
-            this.tbpassengername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbpassengername.Margin = new System.Windows.Forms.Padding(2);
             this.tbpassengername.Name = "tbpassengername";
             this.tbpassengername.Size = new System.Drawing.Size(76, 20);
             this.tbpassengername.TabIndex = 23;
@@ -258,7 +258,7 @@
             // 
             this.tbpassengerid.BackColor = System.Drawing.SystemColors.HighlightText;
             this.tbpassengerid.Location = new System.Drawing.Point(218, 84);
-            this.tbpassengerid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbpassengerid.Margin = new System.Windows.Forms.Padding(2);
             this.tbpassengerid.Name = "tbpassengerid";
             this.tbpassengerid.Size = new System.Drawing.Size(76, 20);
             this.tbpassengerid.TabIndex = 24;
@@ -269,7 +269,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(435, 364);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 34);
             this.button3.TabIndex = 26;
@@ -282,8 +282,8 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(590, 363);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(0, 11);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 37);
             this.button2.TabIndex = 27;
@@ -318,7 +318,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.Coral;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Userinput";
             this.Text = "Userinput";
             this.Load += new System.EventHandler(this.Userinput_Load);

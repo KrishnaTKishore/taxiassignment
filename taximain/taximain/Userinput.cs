@@ -19,7 +19,7 @@ namespace taximain
         int hr;
         double totalfare;
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Nausheen\source\repos\taxiassign\taximain\taximain\TaxiUser.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Dell\Source\Repos\taxiassignment\taximain\taximain\TaxiUser.mdf;Integrated Security=True");
         public Userinput()
         {
             InitializeComponent();
@@ -34,13 +34,13 @@ namespace taximain
         {
             if(rbam.Checked)
             {
-                tbtime.Text = tbtime.Text + cbhr.Text + ":" + cbmin.Text  ;   
+                tbtime.Text = tbtime.Text + cbhr.Text  ;   
                 tbtime.Text = tbtime.Text + "AM";
 
             }
             else if (rbpm.Checked)
             {
-                tbtime.Text = tbtime.Text + cbhr.Text + ":" + cbmin.Text;
+                tbtime.Text = tbtime.Text + cbhr.Text;
                 tbtime.Text = tbtime.Text + "PM";
 
             }
